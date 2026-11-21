@@ -63,7 +63,11 @@ table{font-size:14px;font-variant-numeric:tabular-nums}th{background:#e9ecef;col
 
 svg text.axis-left{fill:#185990;font-weight:600}svg text.axis-right{fill:#a42d32;font-weight:600}svg .axis-left-line{stroke:#185990;stroke-width:1.2}svg .axis-right-line{stroke:#a42d32;stroke-width:1.2}
 
-#reading-preview,.reading-photo-view img{display:block;max-width:100%;max-height:55vh;object-fit:contain;margin:12px auto}#reading-ocr,.reading-photo-view pre{white-space:pre-wrap;max-height:25vh;overflow:auto}#reading-suggestions{margin:14px 0}#reading-photo-draft{margin-top:8px}
+.reading-photo-view img{display:block;max-width:100%;max-height:55vh;object-fit:contain;margin:12px auto}#reading-ocr,.reading-photo-view pre{white-space:pre-wrap;max-height:25vh;overflow:auto}#reading-suggestions{margin:14px 0}#reading-photo-draft{margin-top:8px}
+.reading-photo-context{position:sticky;top:-28px;z-index:1;padding:8px 0;margin-bottom:10px;border-bottom:1px solid #dce1d6;background:#fff;overflow-wrap:anywhere}
+.reading-photo-context p{margin:0;font-size:14px}
+#reading-photo-target{font-weight:700}
+#reading-photo-dialog .inline-check{min-height:44px}
 
 /* Start directly in daily work; configuration belongs to its own sheet. */
 body[data-view="tanks"].cockpit-mode .workspace-heading{display:none}body[data-view="settings"] .layout{grid-template-columns:1fr}body[data-view="settings"] #detail{display:none}body[data-view="settings"] #tank-list{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:8px}body[data-view="settings"] .tank-item{margin:0;padding:12px;min-height:64px}body[data-view="settings"] .tank-toolbar{margin-bottom:16px}
