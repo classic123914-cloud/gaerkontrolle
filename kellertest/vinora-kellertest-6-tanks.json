@@ -1,0 +1,134 @@
+{
+  "format": "kellerwirtschaft-backup",
+  "version": 6,
+  "exportedAt": "2026-11-21T14:49:59.769Z",
+  "data": {
+    "schemaVersion": 6,
+    "sugarAnalyses": [],
+    "sugarCalculations": [],
+    "preferences": {
+      "language": "de",
+      "configured": false,
+      "mustUnit": "°Oe DE",
+      "oeScale": "de",
+      "densityUnit": "g/mL",
+      "alcoholDisplay": "both",
+      "refractionUnit": "nD"
+    },
+    "tanks": [
+      {
+        "id": "kellertest-12",
+        "number": "12",
+        "name": "Test · Mostgewicht und Temperatur",
+        "capacityL": 1000
+      },
+      {
+        "id": "kellertest-7",
+        "number": "7",
+        "name": "Test · Mehrere Werte auf dem Display",
+        "capacityL": 1000
+      },
+      {
+        "id": "kellertest-13",
+        "number": "13",
+        "name": "Test · Negatives Mostgewicht",
+        "capacityL": 1000
+      },
+      {
+        "id": "kellertest-14",
+        "number": "14",
+        "name": "Test · Dezimal-Oechsle",
+        "capacityL": 1000
+      },
+      {
+        "id": "kellertest-15",
+        "number": "15",
+        "name": "Test · Unscharfes Bild oder fehlende Einheit",
+        "capacityL": 1000
+      },
+      {
+        "id": "kellertest-16",
+        "number": "16",
+        "name": "Test · Analoge Skala",
+        "capacityL": 1000
+      }
+    ],
+    "measurements": [],
+    "corrections": [],
+    "calculations": [],
+    "sources": [],
+    "volumeReadings": [],
+    "memos": [],
+    "photos": [],
+    "fermentations": [
+      {
+        "id": "f-kellertest-12",
+        "number": "",
+        "vintage": "",
+        "name": "Test · Mostgewicht und Temperatur",
+        "variety": "",
+        "tankId": "kellertest-12",
+        "completed": false,
+        "favorite": false,
+        "assignments": []
+      },
+      {
+        "id": "f-kellertest-7",
+        "number": "",
+        "vintage": "",
+        "name": "Test · Mehrere Werte auf dem Display",
+        "variety": "",
+        "tankId": "kellertest-7",
+        "completed": false,
+        "favorite": false,
+        "assignments": []
+      },
+      {
+        "id": "f-kellertest-13",
+        "number": "",
+        "vintage": "",
+        "name": "Test · Negatives Mostgewicht",
+        "variety": "",
+        "tankId": "kellertest-13",
+        "completed": false,
+        "favorite": false,
+        "assignments": []
+      },
+      {
+        "id": "f-kellertest-14",
+        "number": "",
+        "vintage": "",
+        "name": "Test · Dezimal-Oechsle",
+        "variety": "",
+        "tankId": "kellertest-14",
+        "completed": false,
+        "favorite": false,
+        "assignments": []
+      },
+      {
+        "id": "f-kellertest-15",
+        "number": "",
+        "vintage": "",
+        "name": "Test · Unscharfes Bild oder fehlende Einheit",
+        "variety": "",
+        "tankId": "kellertest-15",
+        "completed": false,
+        "favorite": false,
+        "assignments": []
+      },
+      {
+        "id": "f-kellertest-16",
+        "number": "",
+        "vintage": "",
+        "name": "Test · Analoge Skala",
+        "variety": "",
+        "tankId": "kellertest-16",
+        "completed": false,
+        "favorite": false,
+        "assignments": []
+      }
+    ],
+    "csvImports": []
+  },
+  "attachments": []
+}
